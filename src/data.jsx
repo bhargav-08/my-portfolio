@@ -266,7 +266,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'https://my-portfolio-psi-cyan.vercel.app/',
+        desc: 'https://my-portfolio-bhargav-chandpara.vercel.app/',
       },
     ],
   },
@@ -287,8 +287,8 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Functionalities: ',
-        desc: 'Error Handling,Password Management,Signup,Login',
+        title: 'Github Code : ',
+        desc: 'https://github.com/bhargav-08/natours-app',
       },
     ],
   },
@@ -310,8 +310,8 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: 'Github Code : ',
+        desc: 'https://github.com/bhargav-08/feedback-app',
       },
     ],
   },
