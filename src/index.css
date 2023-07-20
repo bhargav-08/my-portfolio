@@ -19,9 +19,9 @@
         font-size: var(--small-font-size);
     }
 
-    .stats__title {
+    /* .stats__title {
         padding-left: 35px;
-    }
+    } */
 
     .stats__title::before {
         width: 22px;

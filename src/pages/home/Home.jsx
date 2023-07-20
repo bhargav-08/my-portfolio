@@ -1,4 +1,5 @@
 import ProfileImg from '../../assets/home.jpg'
+import ProfileImgSmall from '../../assets/home-small.jpg'
 import { Link } from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa'
 import './home.css'
@@ -6,7 +7,14 @@ import './home.css'
 const Home = () => {
   return (
     <section className='home section grid'>
-      <img src={ProfileImg} alt='' className='home__img' />
+      <picture>
+        <source
+          className='home__img'
+          media='(min-width: 768px)'
+          srcSet={ProfileImg}
+        />
+        <img className='home__img' src={ProfileImgSmall} />
+      </picture>
       <div className='home__content'>
         <div className='home__data'>
           <h1 className='home__title'>
